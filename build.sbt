@@ -77,7 +77,7 @@ lazy val facade =
         "io.github.cquiroz.react"           %%% "common"    % "0.17.0",
         "io.github.cquiroz.react"           %%% "test"      % "0.17.0"     % Test,
         "org.scalameta"                     %%% "munit"     % "0.7.29"     % Test,
-        "org.typelevel"                     %%% "cats-core" % "2.7.0"      % Test
+        "org.typelevel"                     %%% "cats-core" % "2.9.0"      % Test
       ),
       testFrameworks += new TestFramework("munit.Framework")
     )
